@@ -1,225 +1,315 @@
+<!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="./style.css" />
-        <title>3dgs.zip</title>
+        <meta charset="utf-8" />
+        <meta
+            name="description"
+            content="3dgs.zip: Resources on 3D Gaussian Splatting by the CVG research group at Fraunhofer Heinrich Hertz Institute."
+        />
+        <meta name="keywords" content="3D Gaussian Splatting, CVG, Research" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>3dgs.zip: 3D Gaussian Splatting Resources</title>
+
         <link
-            href="https://fonts.googleapis.com/css?family=Montserrat|Segoe+UI"
+            href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
             rel="stylesheet"
         />
+
+        <link rel="stylesheet" href="./static/css/bulma.min.css" />
+        <link rel="stylesheet" href="./static/css/bulma-carousel.min.css" />
+        <link rel="stylesheet" href="./static/css/bulma-slider.min.css" />
+        <link rel="stylesheet" href="./static/css/fontawesome.all.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+        />
+        <link rel="stylesheet" href="./static/css/index.css" />
+        <link rel="icon" href="./static/images/favicon.svg" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script defer src="./static/js/fontawesome.all.min.js"></script>
+        <script src="./static/js/bulma-carousel.min.js"></script>
+        <script src="./static/js/bulma-slider.min.js"></script>
+        <script src="./static/js/index.js"></script>
     </head>
     <body>
-        <div class="n-title">
-            <h1>3dgs.zip</h1>
-        </div>
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container is-max-desktop">
+                    <div class="columns is-centered">
+                        <div class="column has-text-centered">
+                            <h1 class="title is-1 publication-title">
+                                3dgs.zip: 3D Gaussian Splatting Resources
+                            </h1>
+                            <div class="is-size-5 publication-authors">
+                                <span class="author-block">
+                                    <a
+                                        href="https://www.hhi.fraunhofer.de/en/departments/vit/research-groups/computer-vision-graphics.html"
+                                        >Computer Vision & Graphics @ Fraunhofer
+                                        HHI</a
+                                    >
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="n-article">
-            <div class="abstract">
-                <table>
-                    <tr>
-                        <td>
+        <section class="section">
+            <div class="container is-max-desktop">
+                <!-- Abstract. -->
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <div class="content has-text-justified">
                             <p>
                                 At 3dgs.zip, we're collecting resources around
                                 our work on 3D Gaussian Splatting in the
                                 <a
-                                    target="”_blank”"
-                                    style="color: inherit"
+                                    target="_blank"
                                     href="https://www.hhi.fraunhofer.de/en/departments/vit/research-groups/computer-vision-graphics.html"
                                     >Computer Vision & Graphics (CVG)</a
                                 >
                                 research group at Fraunhofer Heinrich Hertz
-                                Institute (HHI).
-                                <br />
-                                <br />
-                                Our focus lies on modelling compact
-                                representations and representing humans.
+                                Institute (HHI). Our focus lies on modelling
+                                compact representations and representing humans.
                             </p>
-                        </td>
-                        <td>
-                            <img
-                                style="width: 250px"
-                                src="images/gauss_geht_aus.jpg"
-                            />
-                        </td>
-                    </tr>
-                </table>
+                        </div>
+                    </div>
+                </div>
+                <!--/ Abstract. -->
             </div>
+        </section>
 
-            <h2>
-                Compression Survey -
-                <a
-                    style="color: inherit"
-                    target="”_blank”"
-                    href="https://survey.3dgs.zip/"
-                    >survey.3dgs.zip</a
-                >
-            </h2>
+        <section class="section">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">Compression Survey</h2>
 
-            <table>
-                <tr>
-                    <td style="width: 250px">
-                        <img src="images/3dgs.zip.webp" />
-                    </td>
-                    <td>
-                        <h3>
-                            <a
-                                style="color: inherit"
-                                target="”_blank”"
-                                href="https://survey.3dgs.zip/"
-                                >3dgs.zip: A survey on 3D Gaussian Splatting
-                                Compression Methods</a
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <img src="images/3dgs.zip.webp" />
+                            </div>
+                            <div
+                                class="column is-two-thirds has-text-justified"
                             >
-                        </h3>
-                        <p>
-                            We're collecting results and info on methods that
-                            reduce the storage size of 3D Gaussian splatting
-                            scenes. Contributions welcome!
-                        </p>
-                    </td>
-                    <td style="width: 100px">
-                        <a target="”_blank”" href="https://survey.3dgs.zip/"
-                            >survey.3dgs.zip</a
-                        >
-                        <br />
-                        <br />
-                        <a
-                            target="”_blank”"
-                            href="https://github.com/w-m/3dgs-compression-survey"
-                            >Code & Data</a
-                        >
-                    </td>
-                </tr>
-            </table>
+                                <span class="link-block">
+                                    <a
+                                        href="https://survey.3dgs.zip/"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="fas fa-chart-line"></i>
+                                        </span>
+                                        <span>survey.3dgs.zip</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/w-m/3dgs-compression-survey"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code & Data</span>
+                                    </a>
+                                </span>
+                                <div>
+                                    3dgs.zip: A survey on 3D Gaussian Splatting
+                                    Compression Methods: We're collecting
+                                    results and info on methods that reduce the
+                                    storage size of 3D Gaussian splatting
+                                    scenes. Contributions welcome!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <h2>Research</h2>
+        <section class="section">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">Gaussian Viewer</h2>
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <img src="images/gs_viewer.png" />
+                            </div>
+                            <div class="column is-two-thirds has-text-justified">
+                                <span class="link-block">
+                                    <a
+                                        href="https://github.com/Florian-Barthel/gaussian_viewer"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
+                                <p>
+                                    This interactive viewer allows to display 3D
+                                    Gaussian Splatting objects stored as .ply
+                                    files or as compressed objects from Compact
+                                    3D Scene Representation via Self-Organizing
+                                    Gaussian Grids. The viewer is fully written
+                                    in python, which makes development and
+                                    debugging very simple.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <table>
-                <tr>
-                    <td style="width: 250px">
-                        <img src="images/ssgs.png" />
-                    </td>
-                    <td>
-                        <h3>
-                            <a
-                                style="color: inherit"
-                                target="”_blank”"
-                                href="https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/"
-                                >Compact 3D Scene Representation via
-                                Self-Organizing Gaussian Grids</a
+        <section class="section">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">
+                            Compact 3D Scene Representation via Self-Organizing
+                            Gaussian Grids
+                        </h2>
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <img src="images/ssgs.png" />
+                            </div>
+                            <div
+                                class="column is-two-thirds has-text-justified"
                             >
-                        </h3>
-                        <p>
-                            In this paper, we introduce a compact scene
-                            representation organizing the parameters of 3D
-                            Gaussian Splatting (3DGS) into a 2D grid with local
-                            homogeneity, ensuring a drastic reduction in storage
-                            requirements without compromising visual quality
-                            during rendering.
-                        </p>
-                    </td>
-                    <td style="width: 100px">
-                        <a
-                            target="”_blank”"
-                            href="https://arxiv.org/pdf/2312.13299.pdf"
-                            >Paper</a
-                        ><br />
-                        <br />
-                        <a
-                            target="”_blank”"
-                            href="https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/"
-                            >Project Page</a
-                        >
-                        <br />
-                        <br />
-                        <a
-                            target="”_blank”"
-                            href="https://github.com/fraunhoferhhi/Self-Organizing-Gaussians"
-                            >Code</a
-                        >
-                    </td>
-                </tr>
+                                <span class="link-block">
+                                    <a
+                                        href="https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="fas fa-link"></i>
+                                        </span>
+                                        <span>Project Page</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/fraunhoferhhi/Self-Organizing-Gaussians"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                    <a
+                                        href="https://arxiv.org/abs/2312.13299"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
+                                <p>
+                                    In this paper, we introduce a compact scene
+                                    representation organizing the parameters of
+                                    3D Gaussian Splatting (3DGS) into a 2D grid
+                                    with local homogeneity, ensuring a drastic
+                                    reduction in storage requirements without
+                                    compromising visual quality during
+                                    rendering.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
-                <tr>
-                    <td style="width: 250px">
-                        <img src="images/gs_decoder.png" />
-                    </td>
-                    <td>
-                        <h3>
-                            <a
-                                style="color: inherit"
-                                target="”_blank”"
-                                href="https://florian-barthel.github.io/gaussian_decoder/"
-                                >CVPRW 2024: Gaussian Splatting Decoder for
-                                3D-aware Generative Adversarial Networks</a
-                            >
-                        </h3>
-                        <p>
-                            In this work, we present a novel approach that
-                            combines the high rendering quality of NeRF-based
-                            3D-aware Generative Adversarial Networks with the
-                            flexibility and computational advantages of 3DGS. By
-                            training a decoder that maps implicit NeRF
-                            representations to explicit 3D Gaussian Splatting
-                            attributes, we can integrate the representational
-                            diversity and quality of 3D GANs into the ecosystem
-                            of 3D Gaussian Splatting for the first time.
-                        </p>
-                    </td>
-                    <td style="width: 100px">
-                        <a
-                            target="”_blank”"
-                            href="https://arxiv.org/abs/2404.10625"
-                            >Paper</a
-                        ><br />
-                        <br />
-                        <a
-                            target="”_blank”"
-                            href="https://florian-barthel.github.io/gaussian_decoder/"
-                            >Project Page</a
-                        >
-                        <br />
-                        <br />
-                        <a
-                            target="”_blank”"
-                            href="https://github.com/fraunhoferhhi/gaussian_gan_decoder"
-                            >Code</a
-                        >
-                    </td>
-                </tr>
-            </table>
+        <section class="section">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
 
-            <h2>Viewer</h2>
-            <table>
-                <tr>
-                    <td style="width: 250px">
-                        <img src="images/gs_viewer.png" />
-                    </td>
-                    <td>
-                        <h3>
-                            <a
-                                style="color: inherit"
-                                target="”_blank”"
-                                href="https://github.com/Florian-Barthel/gaussian_viewer"
-                                >Gaussian Viewer</a
-                            >
-                        </h3>
-                        <p>
-                            This interactive viewer allows to display 3D
-                            Gaussian Splatting objects stored as .ply files or
-                            as compressed objects from Compact 3D Scene
-                            Representation via Self-Organizing Gaussian Grids.
-                            The viewer is fully written in python, which makes
-                            development and debugging very simple.
-                        </p>
-                    </td>
-                    <td style="width: 100px">
-                        <a
-                            target="”_blank”"
-                            href="https://github.com/Florian-Barthel/gaussian_viewer"
-                            >GitHub</a
-                        >
-                    </td>
-                </tr>
-            </table>
-        </div>
+                        <h2 class="title is-3">
+                            CVPRW 2024: Gaussian Splatting Decoder for 3D-aware
+                            Generative Adversarial Networks
+                        </h2>
+
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <img src="images/gs_decoder.png" />
+                            </div>
+                            <div class="column is-two-thirds has-text-justified">
+                                <span class="link-block">
+                                    <a
+                                        href="https://florian-barthel.github.io/gaussian_decoder/"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="fas fa-link"></i>
+                                        </span>
+                                        <span>Project Page</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/fraunhoferhhi/gaussian_gan_decoder"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                    <a
+                                        href="https://arxiv.org/abs/2404.10625"
+                                        target="_blank"
+                                        class="external-link button is-normal is-rounded is-dark"
+                                    >
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
+                                <p>
+                                    In this work, we present a novel approach
+                                    that combines the high rendering quality of
+                                    NeRF-based 3D-aware Generative Adversarial
+                                    Networks with the flexibility and
+                                    computational advantages of 3DGS. By
+                                    training a decoder that maps implicit NeRF
+                                    representations to explicit 3D Gaussian
+                                    Splatting attributes, we can integrate the
+                                    representational diversity and quality of 3D
+                                    GANs into the ecosystem of 3D Gaussian
+                                    Splatting for the first time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="footer">
+                <div class="columns is-centered">
+                        <div class="content">
+                            <p>
+                                This website was built from the <a
+                                    href="https://github.com/nerfies/nerfies.github.io"
+                                    >nerfies</a> template.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
